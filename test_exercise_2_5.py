@@ -9,5 +9,3 @@ def test_import_correct_function():
 
     assert primes.isprime is isprime, \
         "math_utils.isprime is not the same function as math_utils.primes.isprime"
-
-print("hello")
